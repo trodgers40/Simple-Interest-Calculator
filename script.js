@@ -6,13 +6,13 @@ function compute()
     var interest = (p * years * rate) / 100;
     var years = new Date().getFullYear()+parseInt(years);
 
-    if(p == "")
+    if(p.nodeValue == "")
     {
         alert('Please fill out Amount');
         p.focus();
         return false;
     }
-    if(p<=0)
+    if(p.nodeValue <=0)
     {
         alert("Amount must be greater than Zero ");
         p.focus();
