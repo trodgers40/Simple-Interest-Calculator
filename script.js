@@ -3,6 +3,8 @@ function comput()
     var p = document.getElementById("principal").nodeValue;
     var rate = document.getElementById("rate").nodeValue;
     var years = document.getElementById("years").nodeValue;
+    var interest = (p * years * rate) / 100;
+    var years = new Date().getFullYear()+parseInt(years);
 
     if(p == "")
     {
