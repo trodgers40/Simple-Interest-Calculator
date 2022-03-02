@@ -1,4 +1,4 @@
-function comput()
+function compute()
 {
     var p = document.getElementById("principal").nodeValue;
     var rate = document.getElementById("rate").nodeValue;
